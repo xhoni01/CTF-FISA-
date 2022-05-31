@@ -1,0 +1,13 @@
+body {
+    background-color: purple;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, div, a {
+    /* FIsA{Y0U_@r3_d0ing_gre@t_K33P_!t_Up} */
+    color: white;
+    font-size: 3rem;
+}
