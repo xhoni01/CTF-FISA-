@@ -8,7 +8,7 @@ if (isset($_GET['hash'])) {
     $hash = sha1($_GET['hash']);
     $target = sha1(10932435112);
     if($hash == $target) {
-        include('flag.php');
+        include('web2_flag.php');
         print $flag;
     } else {
         print "Nahhh";
